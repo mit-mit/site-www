@@ -141,7 +141,7 @@
         - title: Other
           urlExactMatch: true
           match-page-url-exactly: true
-          permalink: /tools
+          permalink: /tools#ides-and-editors
     - title: Command-line tools
       children:
         - title: Overview [TBD]
@@ -156,7 +156,7 @@
           permalink: TBD
         - title: pub
           permalink: /tools/pub
-        - title: Script & server
+        - title: Script/server
           children:
             - title: dart (Dart VM)
               permalink: /server/tools/dart-vm
@@ -226,7 +226,7 @@
   expanded: false
   children:
     - title: Install Dart
-      permalink: /tools/sdk#install
+      permalink: /tools/sdk
     - title: History
       children:
         - title: Converting to Dart&nbsp;2
