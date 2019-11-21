@@ -285,7 +285,10 @@ $dash-dartpad-border: #293542;
   flex-direction: column;
   align-items: center;
 
-  padding: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top:400px;
+  padding-bottom:200px;
 
   background-color: $dash-callout;
 
@@ -309,9 +312,9 @@ $dash-dartpad-border: #293542;
   }
 
   #dartpad-host {
-    height: 512px;
+    height: 800px;
     width: 100%;
-    max-width: 896px;
+    max-width: 1400px;
     display: flex;
 
     iframe {
